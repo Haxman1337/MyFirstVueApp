@@ -1,7 +1,7 @@
 <template>
   <header class="root">
     <img src="../assets/logo.png" alt="">
-    <custom-button class="cb" text="Выход"/>
+    <custom-button class="cb"/>
   </header>
 </template>
 

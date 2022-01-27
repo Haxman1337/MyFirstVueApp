@@ -48,8 +48,10 @@ export default {
         height: 100px;
         width: 100px;
         background: lightblue;
+        object-fit: scale-down;
     }
     .secondBar{
+        margin: auto 4px;
         display: flex;
         align-content: center;
         flex-wrap: nowrap;
@@ -65,7 +67,7 @@ export default {
     .body{
         display: flex;
     }
-        h3{
+    h3{
         margin: 0;
     }
 </style>

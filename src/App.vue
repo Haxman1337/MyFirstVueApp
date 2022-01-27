@@ -25,7 +25,7 @@ export default {
   },
   data(){
     return{
-      Debug: 'user',
+      Debug: 'index',
       UserRequests: [],
     }
   },
@@ -36,7 +36,8 @@ export default {
         title: 'Title',
         description: 'description lorem ipsum',
         category: 'testcat',
-        photo: 'https://avatars.mds.yandex.net/i?id=253379fbfbfd927dc0b90634039d0f64-4859319-images-thumbs&n=13',
+        photo: 'https://avatars.mds.yandex.net/i?id=06c249e98691b02c219e125bb15cba40-4299853-images-thumbs&n=13',
+        photoafter: 'https://avatars.mds.yandex.net/i?id=253379fbfbfd927dc0b90634039d0f64-4859319-images-thumbs&n=13',
         time: '22.8 13:37',
         rstatus: 'new',
       },
@@ -45,16 +46,18 @@ export default {
         title: 'Title1',
         description: 'description lorem ipsum1',
         category: 'testcat1',
-        photo: 'https://avatars.mds.yandex.net/i?id=2bdbe315fc852840d01acfa312c83eb1-5521534-images-thumbs&n=13',
+        photo: 'https://avatars.mds.yandex.net/i?id=889f045ac3a4fc0697eedb1af24ba9c1-5361661-images-thumbs&n=13',
+        photoafter: 'https://avatars.mds.yandex.net/i?id=2bdbe315fc852840d01acfa312c83eb1-5521534-images-thumbs&n=13',
         time: '22.8 13:37',
         rstatus: 'new',
       },
       {
         id: 2,
         title: 'Title2',
-        description: 'description lorem ipsum2',
+        description: 'Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description Really long description ',
         category: 'testcat2',
-        photo: 'https://avatars.mds.yandex.net/i?id=784988b8b03ce2d41f437afbfb38e597-5911249-images-thumbs&n=13',
+        photo: 'https://avatars.mds.yandex.net/i?id=d5dd9c789c1690c66e17936da8b0ad17-5667262-images-thumbs&n=13',
+        photoafter: 'https://avatars.mds.yandex.net/i?id=784988b8b03ce2d41f437afbfb38e597-5911249-images-thumbs&n=13',
         time: '22.8 13:37',
         rstatus: 'new',
       }
