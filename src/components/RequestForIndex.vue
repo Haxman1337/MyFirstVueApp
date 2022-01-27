@@ -2,7 +2,7 @@
     <div class="root">
         <div class="body" :style="cssProps">
             <h3>{{cat}}: {{title}} - {{time}}</h3>
-            <div class="imagebox" @click="clc"></div>
+            <div class="imagebox"></div>
         </div>
     </div>  
 </template>
@@ -25,10 +25,6 @@ export default {
       cat: String,
   },
   methods:{
-      clc(){
-          console.log(this.imgafter);
-          console.log(this.img);
-      }
   },
     computed: {
     cssProps() {
