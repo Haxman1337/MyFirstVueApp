@@ -1,5 +1,5 @@
 <template>
-  <div v-show="!this.Debug.includes('.')">Debug: <button @click="this.Debug = 'login'">логин</button><button @click="this.Debug = 'index'">индекс</button><button @click="this.Debug = 'admin'">админ</button><button @click="this.Debug = 'user'">юзер</button></div>
+  <div v-show="!this.Debug.includes('.')">Debug: <a href='/api/text'>API</a> <button @click="this.Debug = 'login'">логин</button><button @click="this.Debug = 'index'">индекс</button><button @click="this.Debug = 'admin'">админ</button><button @click="this.Debug = 'user'">юзер</button></div>
   <custom-header/>
   <login-page v-show="this.Debug.includes('login')"/>
   <index-page v-show="this.Debug.includes('index')"/>

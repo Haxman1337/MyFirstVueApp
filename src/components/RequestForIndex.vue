@@ -56,7 +56,7 @@ export default {
         border-radius: 50px;
     }
     .imagebox:hover{
-        background: blue var(--img) no-repeat;
+        background: lightgrey var(--img) no-repeat;
         background-size: cover;
     }
 </style>
